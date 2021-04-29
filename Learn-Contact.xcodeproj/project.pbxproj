@@ -13,6 +13,12 @@
 		D70725F7263A51C0000669AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70725F5263A51C0000669AD /* Main.storyboard */; };
 		D70725F9263A51C1000669AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70725F8263A51C1000669AD /* Assets.xcassets */; };
 		D70725FC263A51C1000669AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70725FA263A51C1000669AD /* LaunchScreen.storyboard */; };
+		D7072605263A52AE000669AD /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7072603263A52AE000669AD /* ContactCell.swift */; };
+		D7072606263A52AE000669AD /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7072604263A52AE000669AD /* ContactCell.xib */; };
+		D7072608263A63F1000669AD /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7072607263A63F1000669AD /* MyExtension.swift */; };
+		D7B05B72263A795200F02891 /* AddContactVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B05B70263A795200F02891 /* AddContactVCViewController.swift */; };
+		D7B05B73263A795200F02891 /* AddContactVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B05B71263A795200F02891 /* AddContactVCViewController.xib */; };
+		D7B05B75263A8C3100F02891 /* ContactHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B05B74263A8C3100F02891 /* ContactHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		D70725F8263A51C1000669AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70725FB263A51C1000669AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70725FD263A51C1000669AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7072603263A52AE000669AD /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		D7072604263A52AE000669AD /* ContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		D7072607263A63F1000669AD /* MyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		D7B05B70263A795200F02891 /* AddContactVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVCViewController.swift; sourceTree = "<group>"; };
+		D7B05B71263A795200F02891 /* AddContactVCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactVCViewController.xib; sourceTree = "<group>"; };
+		D7B05B74263A8C3100F02891 /* ContactHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +74,13 @@
 				D70725F5263A51C0000669AD /* Main.storyboard */,
 				D70725F8263A51C1000669AD /* Assets.xcassets */,
 				D70725FA263A51C1000669AD /* LaunchScreen.storyboard */,
+				D7072603263A52AE000669AD /* ContactCell.swift */,
 				D70725FD263A51C1000669AD /* Info.plist */,
+				D7072604263A52AE000669AD /* ContactCell.xib */,
+				D7072607263A63F1000669AD /* MyExtension.swift */,
+				D7B05B70263A795200F02891 /* AddContactVCViewController.swift */,
+				D7B05B71263A795200F02891 /* AddContactVCViewController.xib */,
+				D7B05B74263A8C3100F02891 /* ContactHelper.swift */,
 			);
 			path = "Learn-Contact";
 			sourceTree = "<group>";
@@ -124,9 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7072606263A52AE000669AD /* ContactCell.xib in Resources */,
 				D70725FC263A51C1000669AD /* LaunchScreen.storyboard in Resources */,
 				D70725F9263A51C1000669AD /* Assets.xcassets in Resources */,
 				D70725F7263A51C0000669AD /* Main.storyboard in Resources */,
+				D7B05B73263A795200F02891 /* AddContactVCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B05B72263A795200F02891 /* AddContactVCViewController.swift in Sources */,
+				D7072605263A52AE000669AD /* ContactCell.swift in Sources */,
 				D70725F4263A51C0000669AD /* ViewController.swift in Sources */,
+				D7B05B75263A8C3100F02891 /* ContactHelper.swift in Sources */,
+				D7072608263A63F1000669AD /* MyExtension.swift in Sources */,
 				D70725F0263A51C0000669AD /* AppDelegate.swift in Sources */,
 				D70725F2263A51C0000669AD /* SceneDelegate.swift in Sources */,
 			);
